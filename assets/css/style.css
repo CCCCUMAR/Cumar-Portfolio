@@ -1,14 +1,92 @@
 header{
-    background-color: blue;
+    background-color: rgba(79, 109, 122);
+    border-bottom: solid 10px rgb(66, 93, 104);
+    padding: 20px;
+    height: 100px;
 }
 
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 35px;
+}
+
+li{
+    display: inline;
+    color: white;
+    float: right;
+    margin: 20px;
+    list-style-type: none;
+}
+
+a{ 
+    color: white;
+}
 main{
-    background-color: aqua;
+    background-color: rgba(219, 233, 238);
+}
+
+.aboutme{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+
+.profileimg{
+    float: left;
+    padding: 0 20px 20px 0;
 }
 
 figure{
-    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+   
+}
+
+.cardimg{
+    align-content: center;
+}
+
+.largecard{
+    width: 999px;
+    height: 200px;
+    border: dotted 5px red;
+     padding: 20px;
+    margin: 5px;
+
+    
+
+}
+
+.card{
+    width: 300px;
+    border: dotted 5px red;
+     padding: 50px;
+    margin: 20px;
 }
 footer{
-    background-color: aquamarine;
+    background-color: rgba(79, 109, 122);
+    border-bottom: solid 10px rgb(66, 93, 104);
+    padding: 20px;
+    height: 100px;
 }
+
+@media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
