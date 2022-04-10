@@ -28,91 +28,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#">About Me</a>
-            <a class="nav-link" href="#">Work</a>
-            <a class="nav-link" href="#">Contact Me</a>
-          </div>
-        </div>
-      </nav>
-        
-        <main>
-            <section>        
-                <img src="./assets/images/download.png" alt="img coming soon" class="profileimg">
-                <!-- add img in link above dont forget to add an alt as well-->
-            </section>
-
-            <section class="aboutme">
-                <h1>
-                    About Me
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab dolor obcaecati veniam ratione delectus temporibus dolorem vero qui omnis doloremque totam odit aut tenetur, eos rerum. Nam, quas aperiam?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dignissimos exercitationem quam modi alias praesentium delectus, sequi ducimus hic tenetur aut accusantium nostrum enim illo mollitia commodi perferendis sint sed.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet est minus porro quia ex suscipit sapiente similique eligendi, reprehenderit aperiam, quaerat placeat dolore maxime doloribus. Minima quis culpa quas sed!
-                    <!--add about me text here-->
-                </p>
-            </section>
-
-             <!-- cards for examples of work -->
-             <div class="card-deck">
-                    <div class="card">
-                    <img src="./assets/images/download.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    </div>
-                    <div class="card">
-                    <img src="./assets/images/download.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                    </div>
-                    <div class="card">
-                    <img src="./assets/images/download.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    </div>
-                    <div class="card">
-                        <img src="./assets/images/download.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                    </div>
-             </div>
-      
-        </main>
-        <footer>
-            <h1>
-                Contact Me
-            </h1>
-            <ul>
-                <li>
-                    <a>555-555-5555</a>
+    <!-- Navigation bar at the top of page. is fixed to op of page -->
+    <nav class="navbar navbar-dark bg-dark">
+        <nav class=" navbar navbar-light ">
+          <a class="navbar-brand" href="#">Portfolio</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">About Me</a>
                 </li>
-                <li>
-                    <a href="https://github.com/CCCCUMAR">Github</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
                 </li>
-                <li>
-                    <a href="">Website</a>
+                <li class="nav-item">
+                     <a class="nav-link" href="#">Contact Me</a>
                 </li>
             </ul>
+      </nav>
+    </nav>
+       
+      
+      
+        <main>
+           <!-- Main chunk of content on the page -->
+          <section>
+               <!-- About me  row-->
+               <div class="row my-row justify-content-center">
+                <div class="col-lg-3 my-col">
+                    <img src="./assets/images/images.png" alt="">
+                </div>
+               </div>
+                        <div class="row">
+                            <h1 class="row my-row">About Me</h1>
+                        </div>
+                <div class="row my-row justify-content-center">
+                   <div class="col-lg-6 my-col">   
+                        <p class="row my-row">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo enim sint tempora unde dolorum nobis voluptates at maiores, consectetur explicabo deleniti reiciendis. Iusto laboriosam ipsa voluptatibus molestiae id expedita quae accusamus quisquam exercitationem adipisci architecto quam, corrupti consectetur cupiditate repudiandae perferendis amet dolor iste magnam quo eaque esse laborum! Eveniet illum, dicta provident culpa, assumenda excepturi optio, ad sed iusto cumque fugiat unde non autem odit totam voluptatem incidunt laboriosam deserunt ipsum? Sunt nobis veritatis voluptate quae debitis accusantium, eius quo eligendi eos beatae? Maxime id placeat expedita beatae molestias, incidunt reprehenderit in recusandae suscipit. Dignissimos ratione repudiandae ut perspiciatis?</p>
+                   </div>
+                </div>
+                <!-- Projects row -->
+                <div class="row">
+                    <h1 class="row" id="projects-text">Projects</h1>
+                </div>
+               <div class="row my-row">
+                    <div class="col-lg-6 my-col">
+                        <!-- large card with projects linked to it -->
+                        <div class="card">
+                            <a href="https://banger484.github.io/cocktail-menu/"><img src="./assets/images/lg-project img.jpeg" class="card-img-top" alt="..." id="lg-card-img"></a>
+                            <div class="card-body">
+                              <h5 class="card-title">Cocktail Recipes App</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <!-- smaller cards that link to projects -->
+                    
+                    <div class="col my-col">
+                        <div class="row justify-content-center my-row ">
+                            <div class="card">
+                                <a href="https://ccccumar.github.io/work-day-scheduler/"><img src="./assets/images/small project-img.webp" class="card-img-top" alt="..." ></a>
+                                <div class="card-body">
+                                  <h5 class="card-title">Day Planner</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a href="https://ccccumar.github.io/code-refactor/"><img src="./assets/images/small project-img.webp" class="card-img-top" alt="..." ></a>
+                                <div class="card-body">
+                                  <h5 class="card-title">Code Refactor</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center my-row ">
+                            <div class="card">
+                                <img src="./assets/images/small project-img.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Coming Soon</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/images/small project-img.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Coming Soon</h5>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+            </div>  
+        </section>      
 
-        </footer>
+           
+            <footer>
+                <nav class=" navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Contact Me</a>
+                    <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="https://github.com/CCCCUMAR">Github</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Linkedin</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">umar-19@live.com</a>
+                    </li>
+                  </ul>  
+                </nav> 
+                
+            </footer>   
+              
+        </main>
+        
     
     
 </body>
