@@ -1,7 +1,7 @@
 
 body{
     
-    background-color: rgb(229, 233, 234);
+    background-color: rgb(139, 168, 175);
 }
 
 
@@ -39,4 +39,14 @@ h1{
 img{
     height: 200px;
     width: 200px;
+}
+
+#lg-card-img{
+    height: 400px;
+    width: 780px;
+}
+
+#sm-card-img{
+    height: 200px;
+    width: 280px;
 }
